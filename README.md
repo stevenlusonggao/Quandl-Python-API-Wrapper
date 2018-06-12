@@ -28,7 +28,7 @@ DATE,VALUE
 
 To retrive a data table:
 ```
-out = req.query("datatables","MER","F1","xml{"mapcode":-5370,"compnumber":39102,"reporttype":"A","qopts.columns":"reportdate,amount"}) 
+out = req.query("datatables","MER","F1","xml",{"mapcode":-5370,"compnumber":39102,"reporttype":"A","qopts.columns":"reportdate,amount"}) 
 ```
 ```
 <quandl-response>
