@@ -8,7 +8,7 @@ Quandl is a marketplace for financial, economic and alternative data delivered i
 - The parse() function will take in the following parameters:
   - data_type: either "datatables" for table data or "datasets" for time series data
   - data_name and data_code is explained in the full API documentation. These are used to identify the data to be retrieved, and can be found in their repective web pages on Quandl.com
-  - outout_format: the out put can be in json, xml, or csv
+  - outout_format: the output can be in json, xml, or csv
   - options: additional data slicing tools to refine your data parse. Refer to the API documentation for the full list of commands
   
 ## Examples:
